@@ -3,7 +3,6 @@ import React from "react";
 const Carousel = () => {
   return (
     <div className="relative overflow-x-auto whitespace-nowrap w-full max-w-screen-lg mx-auto">
-      <h1 className="text-xl md:text-2xl font-bold mb-4">Tawaran untukmu</h1>
       <div className="flex" style={{ minWidth: "calc(4 * 16rem)" }}>
         {[1, 2, 3, 4, 5].map((id) => (
           <div

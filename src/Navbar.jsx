@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-6">
       <div className="container mx-auto max-w-screen-lg flex justify-between items-center">
-        <div className="text-white font-bold">Voyagear</div>
+        <div className="text-white font-bold text-xl">Voyagear</div>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
