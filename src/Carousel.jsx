@@ -1,15 +1,28 @@
 import React from "react";
 
 const Carousel = () => {
+  const images = [
+    "/images/promo1.jpeg",
+    "/images/promo1.jpeg",
+    "/images/promo1.jpeg",
+    "/images/promo1.jpeg",
+    "/images/promo1.jpeg"
+    // "/images/promo2.jpeg",
+    // "/images/promo3.jpeg",
+    // "/images/promo4.jpeg",
+    // "/images/promo5.jpeg"
+  ];
+
   return (
-    <div className="relative overflow-x-auto whitespace-nowrap w-full max-w-screen-lg mx-auto">
-      <div className="flex" style={{ minWidth: "calc(4 * 16rem)" }}>
-        {[1, 2, 3, 4, 5].map((id) => (
-          <div
-            key={id}
-            className="inline-block w-64 h-32 mr-4 rounded-md bg-gray-300 p-4"
-          >
-            Item {id}
+    <div className="relative overflow-x-auto aspect-w-20 aspect-h-9 overflow-hidden max-w-screen mb-8">
+      <div className="flex">
+        {images.map((image, index) => (
+          <div key={index} className="inline-block min-w-full">
+            <img
+              src={image}
+              alt={`Image ${index + 1}`}
+              className="w-full h-full object-cover"
+            />
           </div>
         ))}
       </div>
