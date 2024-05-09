@@ -18,7 +18,7 @@ const App = () => {
             <GoogleMapWidget />
           </div>
           <div className="col-span-12">
-            <h1 className="text-xl md:text-2xl font-bold mb-4">
+            <h1 className="text-xl md:text-2xl font-bold mx-auto px-4 mb-4">
               Tawaran untukmu
             </h1>
             <Carousel />
