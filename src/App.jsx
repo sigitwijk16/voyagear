@@ -13,6 +13,15 @@ const App = () => {
       <Navbar />
       <div className="container mx-auto max-w-screen-lg mt-4">
         <div className="grid grid-cols-12 gap-4">
+          <div className="col-span-12 mt-8">
+            <p>
+              <span className="font-bold text-justify">Voyagear</span> hadir
+              sebagai solusi tepat untuk semua kebutuhan kendaraan Anda. Kami
+              menawarkan berbagai layanan yang dirancang untuk membantu Anda
+              menjaga kendaraan Anda dalam kondisi prima, mulai dari layanan
+              mekanik terpercaya hingga penjualan suku cadang berkualitas.{" "}
+            </p>
+          </div>
           <div className="col-span-12">
             <GoogleMapWidget />
           </div>
@@ -27,7 +36,9 @@ const App = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="mt-32">
+        <Footer />
+      </div>
     </div>
   );
 };
