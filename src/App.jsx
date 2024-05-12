@@ -5,7 +5,6 @@ import Carousel from "./Carousel";
 import MenuButtons from "./MenuButtons";
 import GoogleMapWidget from "./GoogleMapWidget";
 import Footer from "./Footer";
-import User from "./User";
 
 const App = () => {
   return (
@@ -23,6 +22,9 @@ const App = () => {
             </p>
           </div>
           <div className="col-span-12">
+            <MenuButtons />
+          </div>
+          <div className="col-span-12">
             <GoogleMapWidget />
           </div>
           <div className="col-span-12">
@@ -30,9 +32,6 @@ const App = () => {
               Tawaran untukmu
             </h1>
             <Carousel />
-          </div>
-          <div className="col-span-12">
-            <MenuButtons />
           </div>
         </div>
       </div>
