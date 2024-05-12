@@ -14,7 +14,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="relative overflow-x-auto aspect-w-20 aspect-h-9 overflow-hidden max-w-screen mb-8">
+    <div className="relative overflow-x-auto rounded-lg aspect-w-20 aspect-h-9 overflow-hidden max-w-screen mb-8">
       <div className="flex">
         {images.map((image, index) => (
           <div key={index} className="inline-block min-w-full">
