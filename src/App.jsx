@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto max-w-screen-lg mt-4">
+      <div className="container px-4 lg:mx-auto max-w-screen-lg">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 mt-8">
             <p>
@@ -21,7 +21,7 @@ const App = () => {
               terpercaya hingga penjualan suku cadang berkualitas.{" "}
             </p>
           </div>
-          <div className="col-span-12 mb-8">
+          <div className="col-span-12 mb-8 overflow-hidden">
             <MenuButtons />
           </div>
           <div className="col-span-12">

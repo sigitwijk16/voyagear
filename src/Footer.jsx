@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-24 px-6 md:px-0">
       <div className="container mx-auto grid grid-cols-2 gap-4 justify-items-center">
-        <div className="text-left overflow-hidden">
+        <div className="w-full text-left overflow-hidden">
           <h2 className="text-base lg:text-xl text-wrap text-pretty text-justify font-bold">
             Hubungi Kami
           </h2>
@@ -25,15 +25,17 @@ const Footer = () => {
             ©Voyagear 2024. All rights reserved
           </p>
         </div>
-        <div className="text-left">
-          <h2 className="text-base lg:text-xl font-semibold">Social Media</h2>
-          <p className="text-left text-sm lg:text-base mt-2">Facebook</p>
-          <p className="text-left text-sm lg:text-base mt-2">Instagram</p>
-          <p className="text-left text-sm lg:text-base mt-2">Twitter</p>
+        <div className="w-full text-left items-start">
+          <div className="grid grid-row">
+            <h2 className="text-base lg:text-xl font-semibold">Social Media</h2>
+            <p className="text-left text-sm lg:text-base mt-2">Facebook</p>
+            <p className="text-left text-sm lg:text-base mt-2">Instagram</p>
+            <p className="text-left text-sm lg:text-base mt-2">Twitter</p>
+          </div>
         </div>
       </div>
       <div className="container mx-auto max-w-screen-lg mt-16">
-        <div className="flex flex-col  justify-center text-left items-center">
+        <div className="flex flex-col justify-center text-left items-center">
           <div className="grid grid-row">
             <p className="text-left text-base lg:text-xl font-semibold mt-4">
               Anggota Kelompok:
