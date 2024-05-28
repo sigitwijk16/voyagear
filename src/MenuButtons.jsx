@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuButtons = () => {
   return (
-    <div className="grid grid-cols-4 mx-20 md:mx-72 mt-12 gap-4">
+    <div className="grid grid-cols-4 mx-20 md:mx-72 mt-8 md:mt-12 gap-4">
       <div className="flex flex-col items-center col-span-2 md:col-span-1">
         <div className="px-4 md:px-2 py-4 rounded-xl border-2 border-black">
           <img

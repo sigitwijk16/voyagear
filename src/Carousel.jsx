@@ -4,7 +4,7 @@ import { Carousel } from "@material-tailwind/react";
 
 export function CarouselDefault() {
   return (
-    <Carousel className="rounded-xl ">
+    <Carousel className="rounded-xl z-30">
       <img
         src="/images/carousel4.png"
         alt="image 1"
