@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div className="bg-brown-100">
+    <div className="bg-white">
       <Navbar />
       <div className="container px-4 lg:mx-auto max-w-screen-xl">
         <div className="grid grid-cols-12 gap-4">
