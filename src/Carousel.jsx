@@ -1,33 +1,32 @@
 import React from "react";
 
-const Carousel = () => {
-  const images = [
-    "/images/promo1.jpeg",
-    "/images/promo1.jpeg",
-    "/images/promo1.jpeg",
-    "/images/promo1.jpeg",
-    "/images/promo1.jpeg"
-    // "/images/promo2.jpeg",
-    // "/images/promo3.jpeg",
-    // "/images/promo4.jpeg",
-    // "/images/promo5.jpeg"
-  ];
+import { Carousel } from "@material-tailwind/react";
 
+export function CarouselDefault() {
   return (
-    <div className="relative overflow-x-auto rounded-lg aspect-w-20 aspect-h-9 overflow-hidden max-w-screen mb-8">
-      <div className="flex">
-        {images.map((image, index) => (
-          <div key={index} className="inline-block min-w-full">
-            <img
-              src={image}
-              alt={`Image ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
-      </div>
-    </div>
+    <Carousel className="rounded-xl ">
+      <img
+        src="/images/carousel4.png"
+        alt="image 1"
+        className="h-fit w-full object-cover"
+      />
+      <img
+        src="/images/carousel1.png"
+        alt="image 1"
+        className="h-fit w-full object-cover"
+      />
+      <img
+        src="/images/carousel2.png"
+        alt="image 1"
+        className="h-fit w-full object-cover"
+      />
+      <img
+        src="/images/carousel3.png"
+        alt="image 1"
+        className="h-fit w-full object-cover"
+      />
+    </Carousel>
   );
-};
+}
 
-export default Carousel;
+export default CarouselDefault;
