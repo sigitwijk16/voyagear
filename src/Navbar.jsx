@@ -11,11 +11,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 py-4">
       <div className="container lg:mx-auto max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src="/android-chrome-512x512.png"
-            className="h-6"
-            alt="Flowbite Logo"
-          />
+          <img src="/images/logo.png" className="h-6" alt="Flowbite Logo" />
           <p className="text-xl text-white border-b-2 border-transparent font-semibold transition duration-300 ease-in-out hover:border-b-2 hover:scale-110 hover:border-golden hover:text-golden">
             Voyagear
           </p>
