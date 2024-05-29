@@ -13,8 +13,8 @@ const App = () => {
       <div className="container px-4 lg:mx-auto max-w-screen-xl">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 mt-8">
-            <p>
-              <span className="font-bold text-golden text-xl lg:text-3xl">
+            <p className="text-lg text-justify font-normal text-wrap">
+              <span className="font-bold text-golden text-xl lg:text-2xl">
                 Voyagear
               </span>{" "}
               hadir sebagai solusi tepat untuk semua kebutuhan kendaraan Anda.

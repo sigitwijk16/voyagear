@@ -10,9 +10,13 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 py-4">
       <div className="container lg:mx-auto max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/images/logo.png" className="h-6" alt="Flowbite Logo" />
-          <p className="text-xl text-white border-b-2 border-transparent font-semibold transition duration-300 ease-in-out hover:border-b-2 hover:scale-110 hover:border-golden hover:text-golden">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="/images/logo.png"
+            className="h-8 w-auto"
+            alt="Flowbite Logo"
+          />
+          <p className="text-2xl text-white border-b-2 border-transparent font-semibold transition duration-300 ease-in-out hover:border-b-2 hover:scale-110 hover:border-golden hover:text-golden">
             Voyagear
           </p>
         </a>
@@ -47,7 +51,7 @@ const Navbar = () => {
           onClick={toggleDrawer}
         ></div>
         <div
-          className={`fixed top-0 right-0 w-64 h-full bg-gray-800 shadow-lg z-50 transform transition-transform ${
+          className={`fixed top-0 right-0 w-72 h-full bg-gray-800 shadow-lg z-50 transform transition-transform ${
             isDrawerOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -71,31 +75,43 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
-          <ul className="font-normal flex flex-col p-4 space-y-2 mt-12">
+          <ul className="font-normal text-lg flex flex-col p-4 space-y-2 mt-6">
             <li>
-              <a href="#" className="block py-2 px-3 text-white font-bold">
+              <a
+                href="#"
+                className="block py-2 px-3 border-b-2 border-white text-white"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3  text-white">
+              <a
+                href="#"
+                className="block py-2 px-3 border-b-2 border-white text-white"
+              >
                 Riwayat
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3  text-white">
+              <a
+                href="#"
+                className="block py-2 px-3 border-b-2 border-white text-white"
+              >
                 Keranjang
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3  text-white">
+              <a
+                href="#"
+                className="block py-2 px-3 border-b-2 border-white text-white"
+              >
                 Profil
               </a>
             </li>
           </ul>
         </div>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700">
+          <ul className="font-normal text-lg flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700">
             <li>
               <a
                 href="#"
