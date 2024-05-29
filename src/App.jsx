@@ -14,11 +14,14 @@ const App = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 mt-8">
             <p>
-              <span className="font-bold">Voyagear</span> hadir sebagai solusi
-              tepat untuk semua kebutuhan kendaraan Anda. Kami menawarkan
-              berbagai layanan yang dirancang untuk membantu Anda menjaga
-              kendaraan Anda dalam kondisi prima, mulai dari layanan mekanik
-              terpercaya hingga penjualan suku cadang berkualitas.{" "}
+              <span className="font-bold text-golden text-xl lg:text-3xl">
+                Voyagear
+              </span>{" "}
+              hadir sebagai solusi tepat untuk semua kebutuhan kendaraan Anda.
+              Kami menawarkan berbagai layanan yang dirancang untuk membantu
+              Anda menjaga kendaraan Anda dalam kondisi prima, mulai dari
+              layanan mekanik terpercaya hingga penjualan suku cadang
+              berkualitas.{" "}
             </p>
           </div>
           <div className="col-span-12 mb-8 overflow-hidden">
