@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 lg:py-24 px-6 md:px-0">
-      <div className="ml-0 md:ml-48 lg:ml-60">
-        <div className="container mx-auto grid grid-cols-2 w-2/3 gap-8 lg:gap-16 justify-items-center">
+    <footer className="bg-gray-800 text-white py-8 lg:py-24 px-6 md:px-0 ">
+      <div className="ml-0 md:ml-48 lg:ml-60 ">
+        <div className="container mx-auto grid grid-cols-2 w-2/3 gap-8 lg:gap-16 justify-items-center ">
           <div className="w-full text-left items-center col-span-1">
             <h2 className="text-sm lg:text-xl text-wrap text-justify font-bold">
               Hubungi Kami

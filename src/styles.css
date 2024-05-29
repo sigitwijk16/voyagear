@@ -1,0 +1,66 @@
+.text-2xl {
+  font-size: 1.5rem;
+}
+.text-white {
+  color: white;
+}
+.border-transparent {
+  border-color: transparent;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+.duration-300 {
+  transition-duration: 0.3s;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+.hover\:scale-110:hover {
+  transform: scale(1.1);
+}
+.hover\:text-golden:hover {
+  color: #c39a08;
+}
+.border-animation {
+  position: relative;
+  display: inline-block;
+}
+.border-animation:before {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust to match border thickness */
+  left: 0;
+  width: 0;
+  height: 2px; /* Adjust to match border thickness */
+  background-color: #c39a08;
+  transition: width 0.3s ease-in-out;
+}
+.border-animation:hover:before {
+  animation: animateBorder 1s forwards;
+}
+@keyframes animateBorder {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  25% {
+    width: 50%;
+    left: 0;
+  }
+  50% {
+    width: 50%;
+    left: 50%;
+  }
+  75% {
+    width: 50%;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}

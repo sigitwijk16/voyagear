@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./styles.css";
 
 const Navbar = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
             className="h-8 w-auto"
             alt="Flowbite Logo"
           />
-          <p className="text-2xl text-white border-b-2 border-transparent font-semibold transition duration-300 ease-in-out hover:border-b-2 hover:scale-110 hover:border-golden hover:text-golden">
+          <p className="text-2xl text-white border-transparent font-semibold transition duration-300 ease-in-out hover:scale-110 hover:text-golden border-animation">
             Voyagear
           </p>
         </a>
@@ -57,7 +58,7 @@ const Navbar = () => {
         >
           <button
             onClick={toggleDrawer}
-            className="absolute top-4 right-4 text-white hover:text-gray-200 focus:outline-none"
+            className="absolute top-10 right-6 text-white hover:text-gray-200 focus:outline-none"
           >
             <span className="sr-only">Close drawer</span>
             <svg
@@ -75,38 +76,31 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
-          <ul className="font-normal text-lg flex flex-col p-4 space-y-2 mt-6">
+          <ul className="font-normal text-lg flex flex-col p-4 space-y-2 mt-16">
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 border-b-2 border-white text-white"
-              >
+              <a href="#" className="block py-2 px-3 text-white">
                 Home
               </a>
+              <hr />
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 border-b-2 border-white text-white"
-              >
+              <a href="#" className="block py-2 px-3  text-white">
                 Riwayat
               </a>
+              <hr />
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 border-b-2 border-white text-white"
-              >
+              <a href="#" className="block py-2 px-3  text-white">
                 Keranjang
               </a>
+              <hr />
             </li>
+
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 border-b-2 border-white text-white"
-              >
+              <a href="#" className="block py-2 px-3  text-white">
                 Profil
               </a>
+              <hr />
             </li>
           </ul>
         </div>
@@ -115,7 +109,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white"
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white border-animation"
               >
                 Home
               </a>
@@ -123,7 +117,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white"
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white border-animation"
               >
                 Riwayat
               </a>
@@ -131,7 +125,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white"
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white border-animation"
               >
                 Keranjang
               </a>
@@ -139,7 +133,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white"
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-golden md:p-0 text-white border-animation"
               >
                 Profil
               </a>
