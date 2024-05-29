@@ -97,7 +97,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white   hover:text-white "
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white"
               >
                 Home
               </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white   hover:text-white "
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white"
               >
                 Riwayat
               </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white   hover:text-white "
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white"
               >
                 Keranjang
               </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white   hover:text-white "
+                className="block py-2 px-3  rounded   md:border-0 md:hover:text-blue-700 md:p-0 text-white"
               >
                 Profil
               </a>
