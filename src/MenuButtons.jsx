@@ -7,6 +7,7 @@ const MenuButtons = () => {
     <div className="grid grid-cols-4 mx-20 md:mx-72 mt-8 md:mt-12 gap-4">
       <Link
         to="https://www.linkedin.com/in/sigit-wijonarko-391910256/"
+        target="_blank"
         className="col-span-2 md:col-span-1"
       >
         <div className="flex flex-col items-center">
@@ -24,6 +25,7 @@ const MenuButtons = () => {
       </Link>
       <Link
         to="https://www.linkedin.com/in/sigit-wijonarko-391910256/"
+        target="_blank"
         className="col-span-2 md:col-span-1"
       >
         <div className="flex flex-col items-center col-span-2 md:col-span-1">
@@ -39,6 +41,7 @@ const MenuButtons = () => {
       </Link>
       <Link
         to="https://www.linkedin.com/in/sigit-wijonarko-391910256/"
+        target="_blank"
         className="col-span-2 md:col-span-1"
       >
         <div className="flex flex-col items-center col-span-2 md:col-span-1">
@@ -54,6 +57,7 @@ const MenuButtons = () => {
       </Link>
       <Link
         to="https://www.linkedin.com/in/sigit-wijonarko-391910256/"
+        target="_blank"
         className="col-span-2 md:col-span-1"
       >
         <div className="flex flex-col items-center col-span-2 md:col-span-1">

@@ -9,15 +9,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 py-4">
+    <nav className="sticky z-50 top-0 bg-gray-800 py-2">
       <div className="container lg:mx-auto max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-2 rtl:space-x-reverse">
           <img
             src="/images/logo.png"
-            className="h-8 w-auto"
+            className="h-6 w-auto"
             alt="Flowbite Logo"
           />
-          <p className="text-2xl text-white border-transparent font-semibold transition duration-300 ease-in-out hover:scale-110 hover:text-golden border-animation">
+          <p className="text-xl text-white border-transparent font-medium transition duration-300 ease-in-out hover:scale-110 hover:text-golden border-animation">
             Voyagear
           </p>
         </a>

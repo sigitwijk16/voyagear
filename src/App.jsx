@@ -5,6 +5,10 @@ import CarouselDefault from "./Carousel";
 import MenuButtons from "./MenuButtons";
 import GoogleMapWidget from "./GoogleMapWidget";
 import Footer from "./Footer";
+<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>;
 
 const App = () => {
   return (
