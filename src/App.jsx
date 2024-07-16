@@ -28,6 +28,12 @@ const App = () => {
               berkualitas.{" "}
             </p>
           </div>
+          <div className="col-span-12 h-fit">
+          {/* <h1 className="text-base md:text-xl font-bold mx-auto px-4 mb-4">
+              Tawaran untuk Anda
+            </h1> */}
+          <CarouselDefault />
+          </div>
           <div className="col-span-12 mb-8 overflow-hidden">
             <MenuButtons />
           </div>
@@ -35,17 +41,15 @@ const App = () => {
             <h1 className="text-base md:text-xl font-bold mx-auto px-4 mb-4">
               Lokasi Anda
             </h1>
-            <GoogleMapWidget />
+            <GoogleMapWidget/>
           </div>
-          <div className="col-span-12 h-fit">
-            <h1 className="text-base md:text-xl font-bold mx-auto px-4 mb-4">
-              Tawaran untuk Anda
-            </h1>
+          {/* <div className="col-span-12 h-fit">
+
             <CarouselDefault />
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="mt-16">
+      <div className="mt-16 md:mt-48">
         <Footer />
       </div>
     </div>

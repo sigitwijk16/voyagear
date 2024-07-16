@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MenuButtons = () => {
   return (
-    <div className="grid grid-cols-4 mx-20 md:mx-72 mt-8 md:mt-12 gap-4">
+    <div className="grid grid-cols-4 mx-20 md:mx-24 lg:mx-64 mt-8 md:mt-12 gap-4">
       <Link
         to="https://www.linkedin.com/in/sigit-wijonarko-391910256/"
         target="_blank"
